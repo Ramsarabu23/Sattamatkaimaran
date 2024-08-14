@@ -1,0 +1,154 @@
+body{background-color:black;font-size:75%;font-family:Georgia,serif;}
+
+
+
+h1{ font-size:30px;
+color:red;
+}
+
+h2{font-size:28px;}
+
+
+.fr{
+border: #16b0d9 solid 3px;
+background-color: #d1f5fe;
+border-radius: 8px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 5px;
+padding-right: 5px;
+font-weight: bold;
+font-style: italic;
+font-size: large;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: Georgia,serif;
+}
+
+
+.row.flot-what {
+    position: fixed;
+    left: 7px;
+    bottom: 7px;
+    z-index: 9999;
+     }
+
+
+
+.result{background-color:white;border-width:3px;border-color:#0f0;border-style:inset;margin-top:5px;margin-bottom:5px;text-shadow:-1px 0 pink,0 1px pink,1px 0 pink,0 -1px pink}
+
+.larger_font {font-size:larger;animation: blink-animation 1s steps(5, start) infinite;-webkit-animation: blink-animation 1s steps(5, start) infinite;}
+@keyframes blink-animation {
+	to {visibility: hidden;}
+}
+.CHARTS{background-color:white;color:red;font-weight:bold;font-style:italic;font-size:20px;text-decoration:none;border-width:2px;border-color:red;border-style:groove solid;margin-top:2px;margin-bottom:2px;padding:5px;border-radius:0px;text-shadow:1px 1px gold;text-align:left;}
+
+.BACKGROUND { background-color: #e0e0e0; color: black; border-width: 5px; border-color: brown; border-style: ridge; margin-top: 25px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; font-weight: bold; font-size: large;font-weight: bold; font-style: italic; text-shadow: 1px 1px gold;  }
+
+
+.BHORUM { background-color: PURPLE; color: YELLOW; border-width: 3px; border-color: YELLOW; border-style: INSET; margin-top: 3px; margin-bottom: 3px; margin-left: 3px; margin-right: 3px; padding-top: 3px; padding-bottom: 3px; font-weight: bold; font-size: large;font-weight: bold; font-style: italic;   }
+
+
+.result{ background-color: white; color: black; font-size: large; border-width: 3px; border-color: blue; border-style: inset; font-weight: bold; margin-top: 5px; margin-bottom: 5px; font-style: italic; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;text-shadow: 2px 1px gold; }
+
+
+.HEADLINES { background-color:  RED; color:  WHITE; font-weight: bold; font-style: italic; font-size: large; text-decoration: none;text-shadow: 1px 2px BLUE; }
+
+
+
+.BLINK { text-decoration: blink; }
+
+
+.BORDER { color: #333300; border-width: 5px; border-color: #c4c4c4; border-style: groove; margin-top: 3px; margin-bottom: 3px; margin-left: 3px; margin-right: 3px; padding-top: 2px; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-size: small;text-shadow: 1px 1px gold;  }
+
+.CreditSystem {align: center;background-color:#fff;border-color:#893bff;border-style:double;border-width:3px;color:#000; font-style: italic; font-weight:bold; text-align: center; text-shadow: 1px 1px gold;font-size:40px;   
+}
+
+.record {align: center;background-color:#fff;border-color:#893bff;border-style:double;border-width:1px;color:#000;font-family:Georgia,serif;font-style:italic; font-weight:900; text-align: center; text-shadow: 1px 1px gold;}
+
+.ti{ background-color: purple; color: white; font-size: large; border-width: 3px; border-color: yellow; border-style: inset; font-weight: bold; margin-top: 3px; margin-bottom: 3px; font-style: italic; padding-top: 3px; padding-bottom: 3px; padding-left: 3px; padding-right: 2px;}
+
+
+
+.footer{  background-color: yellow; color: black; font-size: large; border-width: 3px; border-color: blue; border-style: inset; font-weight: bold; margin-top: 3px; margin-bottom: 3px; font-style: italic; padding-top: 3px; padding-bottom: 3px; padding-left: 3px; padding-right: 2px;text-shadow: 1px 1px WHITE;}
+
+
+.BBB { background-color: white; color: #000000; border-width: 4px; border-color: blue; border-style: groove; margin-top: 05px; margin-bottom: 05px; margin-left: 05px; margin-right: 05px; padding-top: 05px; padding-bottom: 05px; padding-left: 05px; padding-right: 05px; font-weight: bold; font-size: large; font-style: italic;text-shadow: 1px 1px gold;
+}
+
+
+ .B { background-color: WHITE; color: WHITE; border-width: 3px; border-color: #66CC00; border-style: SOLID; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; font-weight: bold; font-size: large; font-style: italic; text-shadow: 1px 1px gold;} 
+
+
+.BA { background-color: #006400; color: #fffffe; border-width: 4px; border-color: RED; border-style: solid; margin-top: 2px; margin-bottom: 2px; margin-left: 2px; margin-right: 2px; padding-top: 2px; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-weight: bold; font-style: italic; font-size: large; text-shadow: 1px 1px gold; }
+
+
+@media screen and (min-width: 600px) /* Desktop */ {
+table{text-align: center;border-collapse: collapse;}th{font-size:28px;padding:5px 3px}td{font-size:16px;padding: 5px 3px }}
+
+@media screen  and (max-width: 500px) /* Tablet */ {
+table{max-width:100%;min-width:100%;text-align: center;border-collapse:collapse;}th{font-size:15px;padding:4px 1px}td{font-size:9px;padding:4px 1px }}
+
+@media screen  and (max-width: 320px) /* mobile */ {
+table{max-width:100%;min-width:100%;text-align: center;border-collapse:collapse;}th{border:1px solid #DDD;font-size:8px;padding:3px 1px}td{font-size:3;padding: 3px 1px }
+    
+    
+}
+table, td, th {
+    border-bottom: 1px solid #666;
+}
+
+
+
+.update{
+        border-radius:3px;
+        border:1px solid #461300;
+        box-shadow:0 0 2px #461300;
+        background-color:#fff0eb;
+        margin:0px 0 5px 0;
+        font-style: italic;
+        border: #fed3e4 solid 3px;
+
+
+    }
+
+
+
+.line2{
+        border-radius:3px;
+        border:1px solid #461300;
+        box-shadow:0 0 2px #461300;
+        background-color:#03FCC7;
+        margin:10px 0 5px 0;
+        font-style: italic;
+border: #fed3e4 solid 3px;
+
+        
+    }
+
+.line3{
+        border-radius:3px;
+        border:1px solid #461300;
+        box-shadow:0 0 2px #461300;
+        background-color:#DAF7A6;
+        margin:10px 0 5px 0;
+        font-style: italic;
+border: #f12d7a solid 3px;
+
+    }
+
+.Blog {background-color: magenta;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-style: initial;
+border:2px solid white;
+    padding-top:0px;
+    padding-bottom: 5px;
+      
+    
+}
+
+.Blog h3{Color: White;Background-color: Magenta; Padding-top:0Px;Padding-bottom:0Px}
